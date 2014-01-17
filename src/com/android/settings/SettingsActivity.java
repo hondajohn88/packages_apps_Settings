@@ -233,6 +233,8 @@ public class SettingsActivity extends SettingsDrawerActivity
 
     private static final String ACTION_TIMER_SWITCH = "qualcomm.intent.action.TIMER_SWITCH";
 
+    private static final String SUPERSU_FRAGMENT = "com.android.settings.SuperSU";
+
     private static final String LTE_4G_FRAGMENT = "com.android.settings.Lte4GEnableSetting";
     private static final String PROFILEMGR_MAIN_FRAGMENT = "com.android.settings.ProfileMgrMain";
     private static final String MOBILENETWORK_FRAGMENT = "com.android.settings.MobileNetworkMain";
@@ -1072,6 +1074,13 @@ public class SettingsActivity extends SettingsDrawerActivity
             mobileNetworkIntent.setAction("android.settings.DATA_ROAMING_SETTINGS");
             mobileNetworkIntent.setPackage("com.qualcomm.qti.networksetting");
             startActivity(mobileNetworkIntent);
+            finish();
+            return null;
+        }
+        if (SUPERSU_FRAGMENT.equals(fragmentName)) {
+            Intent superSUIntent = new Intent();
+            superSUIntent.setClassName("eu.chainfire.supersu", "eu.chainfire.supersu.MainActivity");
+            startActivity(superSUIntent);
             finish();
             return null;
         }
