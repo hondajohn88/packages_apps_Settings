@@ -240,7 +240,10 @@
     <string name="app_ops_settings_summary">View or change app permissions</string>
 
     <!-- Changelog -->
-    <string name="changelog_tipsy_title">Changelog</string>
-    <string name="changelog_tipsy_error">Unable to load changelog</string>
+    <string name="changelog_tesla_title">Changelog</string>
+    <string name="changelog_tesla_error">Unable to load changelog</string>
+    
+    <!-- About Broken -->
+    <string name="tesla_menu_about">About Tesla</string>
 
 </resources>
