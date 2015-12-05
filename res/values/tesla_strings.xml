@@ -239,4 +239,8 @@
     <!-- [CHAR LIMIT=NONE] App ops settings summary, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
     <string name="app_ops_settings_summary">View or change app permissions</string>
 
+    <!-- Changelog -->
+    <string name="changelog_tipsy_title">Changelog</string>
+    <string name="changelog_tipsy_error">Unable to load changelog</string>
+
 </resources>
