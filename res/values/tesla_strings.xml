@@ -66,6 +66,9 @@
     <!-- Superuser -->
     <string name="superuser_title">Superuser</string>
 
+    <!-- Substratum -->
+    <string name="substratum_title">Substratum</string>
+
     <!-- Volume Steps -->
     <string name="volume_steps_title">Volume steps</string>
     <string name="volume_steps_alarm_title">Volume steps: Alarm</string>
