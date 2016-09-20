@@ -161,10 +161,6 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
 
         boolean isRJILlayout = getResources().getBoolean(R.bool.config_settings_rjil_layout);
 
-        if(isRJILlayout){
-            removePreference(KEY_SYSTEM_UPDATE_SETTINGS);
-        }
-
         // Remove manual entry if none present.
         removePreferenceIfBoolFalse(KEY_MANUAL, R.bool.config_show_manual);
 
