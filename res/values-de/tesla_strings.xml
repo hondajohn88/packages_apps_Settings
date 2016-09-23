@@ -29,4 +29,9 @@
     <string name="volume_steps_voice_call_title">Lautstärkestufen: Sprachanruf</string>
     <string name="volume_steps_reset">zurücksetzen</string>
 
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">Ansteigende Klingellautstärke</string>
+    <string name="increasing_ring_min_volume_title">Anfangslautstärke</string>
+    <string name="increasing_ring_ramp_up_time_title">Zeit bis Endlautstärke</string>
+
 </resources>
