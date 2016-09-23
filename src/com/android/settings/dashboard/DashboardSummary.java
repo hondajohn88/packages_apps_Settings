@@ -83,7 +83,6 @@ public class DashboardSummary extends InstrumentedFragment
             if (TelephonyIntents.ACTION_SIM_STATE_CHANGED.equals(action)
                     || Intent.ACTION_AIRPLANE_MODE_CHANGED.equals(action)) {
                Log.d(TAG, "Received ACTION_SIM_STATE_CHANGED or ACTION_AIRPLANE_MODE_CHANGED");
-               mAdapter.updateLte4GEnabler();
             }
         }
     };
@@ -130,7 +129,6 @@ public class DashboardSummary extends InstrumentedFragment
         long startTime = System.currentTimeMillis();
         super.onStart();
 
-        mAdapter.getLte4GEnabler().resume();
         ((SettingsDrawerActivity) getActivity()).addCategoryListener(this);
         mSummaryLoader.setListening(true);
         for (Condition c : mConditionManager.getConditions()) {
@@ -155,7 +153,6 @@ public class DashboardSummary extends InstrumentedFragment
     @Override
     public void onStop() {
         super.onStop();
-        mAdapter.getLte4GEnabler().pause();
         getActivity().unregisterReceiver(mReceiver);
         ((SettingsDrawerActivity) getActivity()).remCategoryListener(this);
         mSummaryLoader.setListening(false);
