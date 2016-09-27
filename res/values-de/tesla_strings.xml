@@ -34,4 +34,15 @@
     <string name="increasing_ring_min_volume_title">Anfangslautstärke</string>
     <string name="increasing_ring_ramp_up_time_title">Zeit bis Endlautstärke</string>
 
+    <!-- Dashboard options -->
+    <string name="dashboard_category">Dashboard Optionen</string>
+    <string name="dashboard_suggestions_title">Dashboard Vorschläge</string>
+    <string name="summary_dashboard_suggestions_enabled">Dashboard Vorschläge sind aktiviert</string>
+    <string name="summary_dashboard_suggestions_disabled">Dashboard Vorschläge sind deaktiviert</string>
+    <string name="remove_tile_summaries_title">Entfernen Fliesen Zusammenfassungen</string>
+    <string name="remove_tile_summaries_summary">Entfernen von Fliesen Zusammenfassungen, die unter den Kachel Titel angezeigt werden</string>
+    <string name="dashboard_conditions_title">Dashboard Bedingungen</string>
+    <string name="summary_dashboard_conditions_enabled">Dashboard Bedingungen sind aktiviert</string>
+    <string name="summary_dashboard_conditions_disabled">Dashboard Bedingungen sind deaktiviert</string>
+
 </resources>
