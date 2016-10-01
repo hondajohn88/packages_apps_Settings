@@ -45,4 +45,8 @@
     <string name="summary_dashboard_conditions_enabled">Dashboard Bedingungen sind aktiviert</string>
     <string name="summary_dashboard_conditions_disabled">Dashboard Bedingungen sind deaktiviert</string>
 
+    <!-- Wake on Plug -->
+    <string name="wake_when_plugged_or_unplugged_title">Aufwachen mit Stecker</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Bildschirm beim Anschließen und Trennen einer Stromquelle einschalten</string>
+
 </resources>
