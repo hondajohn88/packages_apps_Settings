@@ -376,6 +376,7 @@ public class SettingsActivity extends SettingsDrawerActivity
             WifiAPITest.class.getName(),
             WifiInfo.class.getName(),
             TeslaCoil.class.getName(),
+            LightsSettings.class.getName(),
     };
 
 
