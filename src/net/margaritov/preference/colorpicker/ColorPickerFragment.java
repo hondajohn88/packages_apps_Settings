@@ -71,7 +71,7 @@ public class ColorPickerFragment extends Fragment implements
     private static final String FAVORITE_COLOR_BUTTON  =
             "favorite_color_button_";
 
-    private static final int PALETTE_BENZO  = 0;
+    private static final int PALETTE_TESLA  = 0;
     private static final int PALETTE_MATERIAL = 1;
     private static final int PALETTE_RGB      = 2;
 
@@ -418,13 +418,13 @@ public class ColorPickerFragment extends Fragment implements
         TypedArray layouts = mResources.obtainTypedArray(
                 R.array.color_picker_palette_color_buttons_layouts);
         TypedArray buttons = mResources.obtainTypedArray(R.array.color_picker_palette_color_buttons);
-        TypedArray colors = mResources.obtainTypedArray(R.array.color_picker_benzo_palette);
+        TypedArray colors = mResources.obtainTypedArray(R.array.color_picker_tesla_palette);
 
         for (int i=0; i<3; i++) {
             int layoutResId = layouts.getResourceId(i, 0);
             LinearLayout layout = (LinearLayout) mColorPickerView.findViewById(layoutResId);
             TextView paletteTitle = (TextView) layout.findViewById(R.id.palette_color_buttons_title);
-            int titleResId = R.string.palette_benzo_title;
+            int titleResId = R.string.palette_tesla_title;
             if (i == PALETTE_MATERIAL) {
                 titleResId = R.string.palette_material_title;
                 colors = mResources.obtainTypedArray(R.array.color_picker_material_palette);

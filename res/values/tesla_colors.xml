@@ -15,7 +15,7 @@
 -->
 
 <resources>
-    <color name="background_benzo_blue_grey">#ff1b1f23</color>
+    <color name="background_tesla_blue">#ff36a8db</color>
 
     <!-- Color picker -->
     <color name="color_picker_color_view_drawable_border">#33ffffff</color>

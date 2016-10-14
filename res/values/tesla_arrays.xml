@@ -107,7 +107,7 @@
     </array>
 
     <array name="color_picker_palette_color_buttons_layouts">
-        <item>@id/color_buttons_benzo</item>
+        <item>@id/color_buttons_tesla</item>
         <item>@id/color_buttons_material</item>
         <item>@id/color_buttons_rgb</item>
     </array>
@@ -123,9 +123,9 @@
         <item>@id/palette_color_button_8</item>
     </array>
 
-    <array name="color_picker_benzo_palette">
+    <array name="color_picker_tesla_palette">
         <item>@color/black</item>
-        <item>@color/background_benzo_blue_grey</item>
+        <item>@color/background_tesla_blue</item>
         <item>@color/holo_blue_light</item>
         <item>@color/material_deep_teal_500</item>
         <item>@color/white</item>

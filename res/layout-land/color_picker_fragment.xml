@@ -62,7 +62,7 @@
                     android:id="@+id/favorite_buttons" />
 
                 <include layout="@layout/color_picker_palette_color_buttons_layout"
-                    android:id="@+id/color_buttons_benzo" />
+                    android:id="@+id/color_buttons_tesla" />
 
                 <include layout="@layout/color_picker_palette_color_buttons_layout"
                     android:id="@+id/color_buttons_material" />
