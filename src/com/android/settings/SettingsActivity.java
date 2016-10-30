@@ -1289,7 +1289,7 @@ public class SettingsActivity extends SettingsDrawerActivity
                         Settings.SuperSUActivity.class.getName()),
                 suSupported, isAdmin, pm);
 
-        // Supstratum
+        // Substratum
         boolean substratumSupported = false;
         try {
             substratumSupported = (pm.getPackageInfo("projekt.substratum", 0).versionCode > 0);
