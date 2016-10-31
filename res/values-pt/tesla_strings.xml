@@ -185,7 +185,6 @@
     <string name="notification_light_default_value">Padrão</string>
     <string name="notification_light_missed_call_title">Chamada Perdida</string>
     <string name="notification_light_voicemail_title">Correio de voz</string>
-    <string name="notification_light_brightness" translatable="false">@string/brightness</string>
     <string name="notification_light_screen_on">Luzes com a tela acesa</string>
     <string name="notification_light_zen_mode">Luzes no modo não pertube</string>
     <string name="notification_light_use_multiple_leds">LEDs múltiplos</string>
