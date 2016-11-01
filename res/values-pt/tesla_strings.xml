@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012-2015 Tesla
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- TeslaCoil -->
+    <string name="teslacoil_title">TeslaCoil</string>
+    <string name="header_category_teslacoil">Opções extras</string>
+    <string name="teslacoil_summary">Opções personalizadas Tesla</string>
+
+    <!-- Geral -->
+    <string name="ok">Certo</string>
+    <string name="reset">Redefinir</string>
+    <string name="default_string">Padrão</string>
+    <string name="add">Adiconar</string>
+    <string name="enabled">Habilitar</string>
+    <string name="choose_app">Escolher o aplicatvo</string>
+    <string name="help">Ajuda</string>
+    <string name="reset_message">Repor todas as entradas para o padrão?</string>
+    <string name="attention">Atenção</string>
+    <string name="reset">Repor</string>
+    <string name="advanced">Avançado</string>
+    <string name="profiles_add">Adicionando...</string>
+    <string name="profile_choose_app">Escolha o aplicativo</string>
+
+    <!-- Sobre a tela do telefone, e versão Tesla -->
+    <string name="tesla_version_title">Versão Tesla</string>
+    <string name="tesla_version_default">Desconhecida</string>
+    <!-- Sobre a tela do telefone, data de construção da ROM -->
+    <string name="build_date">Dta de construção</string>
+    <string name="build_date_default">Desconhecida</string>
+
+    <!-- Categoria de densidade -->
+    <string name="density_category">Opções de densidade</string>
+
+    <!-- Ajustes de som do volume -->
+    <string name="volume_adjust_sounds_title">Ajustes de som do volume</string>
+
+    <!-- Categoria de densidade -->
+    <string name="density_category">Opções de densidade</string>
+
+    <!-- Configurações de luzes  -->
+    <string name="lights_settings">Luzes</string>
+
+    <!-- Notificação de depuração USB -->
+    <string name="enable_adb_custom">Depuração android</string>
+    <string name="enable_adb_summary_custom">Ativar a interface de ponte da depuração Android (adb)</string>
+    <string name="adb_notify">Notificação ADB</string>
+    <string name="adb_notify_summary">Exibir uma notificação quando o USB ou rede de depuração estiver habilitado</string>
+    <string name="adb_over_network">ADB sobre a rede</string>
+    <string name="adb_over_network_summary">Ativar a depuração TCP / IP através de interfaces de rede (Wifi \ u2011Fi, redes USB). Esta configuração é reposto na reinicialização</string>
+    <string name="adb_over_network_warning">AVISO: Quando ADB sobre a rede estiver ativado, o telefone estará aberto para invasões em todas as redes conectadas!\n\nSó use esse recurso quando você está conectado em redes confiáveis.\n\nVocê realmente deseja ativar esta função?</string>
+
+    <!-- Super usuário nome do cabeçalho - o app se esconde no lançador com base neste nome do recurso estar presente em com.android.settings -->
+    <string name="supersu_title">Super usuário</string>
+
+    <!-- Super usuário -->
+    <string name="superuser_title">Super usuário</string>
+
+    <!-- Substratum -->
+    <string name="substratum_title">Substratum</string>
+
+    <!--  Grau do volume -->
+    <string name="volume_steps_title">Grau do volume</string>
+    <string name="volume_steps_alarm_title">Grau do volume: Alarme</string>
+    <string name="volume_steps_dtmf_title">Grau do volume: DTMF</string>
+    <string name="volume_steps_music_title">Grau do volume: Musica</string>
+    <string name="volume_steps_notification_title">Grau do volume: Notificações</string>
+    <string name="volume_steps_ring_title">Grau do volume: Toque</string>
+    <string name="volume_steps_system_title">Grau do volume: Sistema</string>
+    <string name="volume_steps_voice_call_title">Grau do volume: Chamada de voz</string>
+    <string name="volume_steps_reset">Redefinir</string>
+    <string name="volume_steps_60">60</string>
+    <string name="volume_steps_45">45</string>
+    <string name="volume_steps_30">30</string>
+    <string name="volume_steps_15">15</string>
+    <string name="volume_steps_7">7</string>
+    <string name="volume_steps_5">5</string>
+
+    <!-- Opções do painel -->
+    <string name="dashboard_category">Opções do painel</string>
+    <string name="dashboard_suggestions_title">Sugestões do painel</string>
+    <string name="summary_dashboard_suggestions_enabled">Sugestões do painel foram habilitadas</string>
+    <string name="summary_dashboard_suggestions_disabled">Dashboard suggestions are disabled</string>
+    <string name="remove_tile_summaries_title">Remover resumos da telha</string>
+    <string name="remove_tile_summaries_summary">Remover as telhas resumos que apresentam debaixo títulos telha</string>
+    <string name="dashboard_conditions_title">Dashboard conditions</string>
+    <string name="summary_dashboard_conditions_enabled">Dashboard conditions are enabled</string>
+    <string name="summary_dashboard_conditions_disabled">Dashboard conditions are disabled</string>
+
+    <!-- Aumentando o volume de toque -->
+    <string name="increasing_ring_volume_option_title">Increasing ring volume</string>
+    <string name="increasing_ring_min_volume_title">Volume inicial</string>
+    <string name="increasing_ring_ramp_up_time_title">Tempo de aceleração</string>
+
+    <!-- Acordar ao plugar -->
+    <string name="wake_when_plugged_or_unplugged_title">Acordar ao plugar</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Ligar a tela ao conectar e desconectar uma fonte de energia</string>
+
+    <!-- Ações de atalho manipulador do dispositivo -->
+    <string name="shortcut_action_none">Nenhum</string>
+    <string name="shortcut_action_app">Aplicativo personalizado</string>
+    <string name="shortcut_action_home">Inicio</string>
+    <string name="shortcut_action_back">Voltar</string>
+    <string name="shortcut_action_menu">Menu</string>
+    <string name="shortcut_action_ime">Abrir IME Switcher</string>
+    <string name="shortcut_action_power_menu">Menu de energia</string>
+    <string name="shortcut_action_recent">Recentes</string>
+    <string name="shortcut_action_power">Tela apagada</string>
+    <string name="shortcut_action_search">Procurar no aplicativo</string>
+    <string name="shortcut_action_now_on_tap">Now on Tap</string>
+    <string name="shortcut_action_ring_vib">Tocar/Vibrar</string>
+    <string name="shortcut_action_ring_silent">Tocar/Silencioso</string>
+    <string name="shortcut_action_ring_vib_silent">Tocar/Vibrar/Silencioso</string>
+    <string name="shortcut_action_camera">Camera</string>
+    <string name="shortcut_action_media_next">Musica - faixa seguinte</string>
+    <string name="shortcut_action_media_play_pause">Musica - reproduzir/pausar</string>
+    <string name="shortcut_action_media_previous">Musica - faixa anterior</string>
+    <string name="shortcut_action_wake_device">Acordar dispositivo</string>
+    <string name="shortcut_action_kill">Matar aplicativo</string>
+    <string name="shortcut_action_screenshot">Captura de tela</string>
+    <string name="shortcut_action_lastapp">Ultimo aplicativo</string>
+    <string name="shortcut_action_notifications">Notificações</string>
+    <string name="shortcut_action_qs">Painel de configurações rápidas</string>
+    <string name="shortcut_action_torch">Lanterna</string>
+    <string name="shortcut_action_longpress">Pressionar logamente:</string>
+    <string name="shortcut_action_select_action_longpress">Escolha uma ação ao pressionar longamente:</string>
+    <string name="shortcut_action_select_action">Escolher ação:</string>
+    <string name="shortcut_action_select_action_newaction">Escolha uma nova ação:</string>
+    <string name="shortcut_action_reset">Reset</string>
+    <string name="shortcut_action_add">Adicionar</string>
+    <string name="shortcut_action_reset_message">Repor todas as entradas para o padrão?</string>
+    <string name="shortcut_action_max">Tamanho máximo de entradas foi atingido</string>
+    <string name="shortcut_action_warning">Atenção</string>
+    <string name="shortcut_action_warning_message">Não é possível apagar a última entrada</string>
+    <string name="shortcut_action_required_warning_message">Não é possível excluir, botões necessários</string>
+    <string name="shortcut_action_disable_message">Desativado\nAdicione uma entrada para ativar esse recurso</string>
+    <string name="shortcut_image_not_valid">O aplicativo escolhido não retornou um ícone válido ou não suporta recorte de imagem. Use outro aplicativo.</string>
+    <string name="shortcut_duplicate_entry">A ação escolhida não pode ser adicionado duas vezes</string>
+    <string name="shortcut_action_help_shortcut">Atalho</string>
+    <string name="shortcut_action_help_button">botões</string>
+    <string name="shortcut_action_help_app">aplicativo</string>
+    <string name="shortcut_action_help_icon">, ao selecionar o ícone trará acima opções de personalização</string>
+    <string name="shortcut_action_help_main">Para adicionar um %1$s, selecione o ícone adicionar. Uma vez que um %1$s foi adicionado, selecionando a linha vai mudar o alvo%2$s\n\nPara remover um %1$s, deslize para a linha horizontal para a esquerda ou direita. Reordenar uma %1$s na lista arrastando verticalmente a âncora no lado esquerdo.\n\nPara limpar ou redefinir os padrões, selecione a opção de redefnir.</string>
+
+    <!-- Configurações específicas do dispositivo -->
+    <string name="screen_off_gesture_settings_title">Gestos para desligar</string>
+
+    <!-- Diálogos leves de  notificação -->
+    <string name="edit_light_settings">Editar configurações de luz</string>
+    <string name="pulse_speed_title">Duração do impulso e velocidade</string>
+    <string name="default_time">Normal</string>
+    <string name="custom_time">Personalizado</string>
+    <string name="dialog_delete_title">Excluir</string>
+    <string name="dialog_delete_message">Remover o item selecionado?</string>
+
+    <!-- Valores para os spinners e pulso de luz de notificação -->
+    <string name="pulse_length_always_on">Sempre</string>
+    <string name="pulse_length_very_short">Muito curto</string>
+    <string name="pulse_length_short">Curto</string>
+    <string name="pulse_length_normal">Normal</string>
+    <string name="pulse_length_long">Longo</string>
+    <string name="pulse_length_very_long">Muito longo</string>
+    <string name="pulse_speed_very_fast">Muito rápido</string>
+    <string name="pulse_speed_fast">Rápido</string>
+    <string name="pulse_speed_normal">Normal</string>
+    <string name="pulse_speed_slow">Lento</string>
+    <string name="pulse_speed_very_slow">Muito devagar</string>
+    <!-- Configurações de luzes da tela, configurações de luz de notificação -->
+    <string name="notification_light_title">Luz de notificaçãot</string>
+    <string name="notificationlight_title">Configurações de notificação de LED</string>
+    <string name="notification_light_general_title">Geral</string>
+    <string name="notification_light_applist_title">Aplicativos</string>
+    <string name="notification_light_phonelist_title">Telefone</string>
+    <string name="notification_light_use_custom">Use valores personalizados</string>
+    <string name="notification_light_default_value">Padrão</string>
+    <string name="notification_light_missed_call_title">Chamada Perdida</string>
+    <string name="notification_light_voicemail_title">Correio de voz</string>
+    <string name="notification_light_screen_on">Luzes com a tela acesa</string>
+    <string name="notification_light_zen_mode">Luzes no modo não pertube</string>
+    <string name="notification_light_use_multiple_leds">LEDs múltiplos</string>
+    <string name="keywords_lights_brightness_level">Escurecer brilho do LED</string>
+    <string name="notification_light_automagic">Escolher as cores automaticamente</string>
+
+    <!-- Configurações de luzes, LED de notificação-->
+    <string name="leds_category_title">Opções do LED</string>
+    <string name="battery_light_settings">Luz da bateria</string>
+    <string name="led_notification_title">Configurações de luz</string>
+    <string name="led_notification_text">Luz de LED ativado pelas configurações</string>
+    <string name="notification_light_no_apps_summary">Para adicionar por controle de aplicativo, ativar \'%1$s\' e pressione \'\u002b\' na barra de menu</string>
+
+    <!-- Configurações de luz da bateria -->
+    <string name="batterylight_title">Configurações do LED da bateria</string>
+    <string name="battery_light_enable">Habilitar</string>
+    <string name="battery_low_pulse_title">Piscar quando a bateria estiver fraca</string>
+    <string name="battery_light_list_title">Cores</string>
+    <string name="battery_light_low_color_title">Bateria fraca</string>
+    <string name="battery_light_medium_color_title">Carregando</string>
+    <string name="battery_light_full_color_title">(90%) carregado</string>
+    <string name="battery_light_really_full_color_title">(100%) carregado</string>
+    <string name="edit_battery_settings">Editar as configurações da bateria</string>
+    <string name="notification_light_general_title">Geral</string>
+    <string name="led_color_green">Verde</string>
+    <string name="led_color_red">Vermelho</string>
+    <string name="led_color_blue">Azul</string>
+
+    <!-- Bagunçar esquema de PIN na tela de bloqueio -->
+    <string name="unlock_scramble_pin_layout_title">Bagunçar esquema</string>
+    <string name="unlock_scramble_pin_layout_summary">O PIN será bagunçado quando for desbloquear o dispositivo</string>
+
+    <!-- Ligar / desligar volume de notificação -->
+    <string name="link_volume_option_title">Ativar volume de toque e notificação</string>
+    <string name="notification_volume_option_title">Notificações de volume</string>
+    <string name="ring_notification_volume_option_title">Volume de toque e notificação</string>
+
+    <!-- Desbloqueio rápido -->
+    <string name="unlock_quick_unlock_control_title">Desbloqueio rápido</string>
+    <string name="unlock_quick_unlock_control_summary">Desbloquear automaticamente quando o PIN / senha correta é digitada</string>
+
+</resources>
+

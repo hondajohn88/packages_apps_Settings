@@ -1289,6 +1289,16 @@ public class SettingsActivity extends SettingsDrawerActivity
                         Settings.SuperSUActivity.class.getName()),
                 suSupported, isAdmin, pm);
 
+        // Substratum
+        boolean substratumSupported = false;
+        try {
+            substratumSupported = (pm.getPackageInfo("projekt.substratum", 0).versionCode > 0);
+        } catch (PackageManager.NameNotFoundException e) {
+        }
+        setTileEnabled(new ComponentName(packageName,
+                Settings.SubstratumActivity.class.getName()),
+                substratumSupported, isAdmin, pm);
+
         // SuperUser
         boolean phhSupported = false;
         try {
