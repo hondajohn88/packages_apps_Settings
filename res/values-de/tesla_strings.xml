@@ -119,4 +119,14 @@
     <string name="unlock_quick_unlock_control_title">schnell entsperren</string>
     <string name="unlock_quick_unlock_control_summary">automatisch entsperren, wenn der richtige PIN / Passwort eingegeben wird</string>
 
+    <!-- Dynamic notification tint -->
+    <string name="notification_tint_title">Dynamische Benachrichtigungstitelfarbe</string>
+    <string name="notification_tint_summary_off">Titelfarbe auf Benachrichtigung wird durch das Thema behandelt</string>
+    <string name="notification_tint_summary_on">Titelfarbe auf Benachrichtigung wird aus App Icon Farbe genommen</string>
+
+    <!-- Doze invert -->
+    <string name="doze_notification_color_invert_title">Ambient-Benachrichtigungen Inversion</string>
+    <string name="doze_notification_color_invert_summary_off">Ambient-Benachrichtigungen werden nicht invertiert</string>
+    <string name="doze_notification_color_invert_summary_on">Ambient-Benachrichtigungen werden invertiert</string>
+
 </resources>
