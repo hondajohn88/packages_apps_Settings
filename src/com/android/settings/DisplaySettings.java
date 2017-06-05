@@ -162,15 +162,13 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
         }
 
         if (isLiftToWakeAvailable(activity)) {
-            mLiftToWakePreference = (SwitchPreference) findPreference(KEY_LIFT_TO_WAKE);
-            mLiftToWakePreference.setOnPreferenceChangeListener(this);
+            removePreference(KEY_LIFT_TO_WAKE);
         } else {
             removePreference(KEY_LIFT_TO_WAKE);
         }
 
         if (isDozeAvailable(activity)) {
-            mDozePreference = (SwitchPreference) findPreference(KEY_DOZE);
-            mDozePreference.setOnPreferenceChangeListener(this);
+            removePreference(KEY_DOZE);
         } else {
             removePreference(KEY_DOZE);
         }
@@ -296,23 +294,8 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
 
         if (isDozeAvailable(activity)) {
             mAmbientDozeCustomBrightness = (CustomSeekBarPreference) findPreference(AMBIENT_DOZE_CUSTOM_BRIGHTNESS);
-            int defaultValue = getResources().getInteger(
-                    com.android.internal.R.integer.config_screenBrightnessDoze);
-            int brightness = Settings.System.getIntForUser(resolver,
-                    Settings.System.AMBIENT_DOZE_CUSTOM_BRIGHTNESS, defaultValue, UserHandle.USER_CURRENT);
-            mAmbientDozeCustomBrightness.setMin(defaultValue);
-            mAmbientDozeCustomBrightness.setValue(brightness);
-            mAmbientDozeCustomBrightness.setOnPreferenceChangeListener(this);
-
-            mAmbientDozeAutoBrightness = (SwitchPreference) findPreference(AMBIENT_DOZE_AUTO_BRIGHTNESS);
-            boolean defaultAmbientDozeAutoBrighthness = getResources().getBoolean(
-                    com.android.internal.R.bool.config_allowAutoBrightnessWhileDozing);
-            boolean isAmbientDozeAutoBrighthness = Settings.System.getIntForUser(resolver,
-                    Settings.System.AMBIENT_DOZE_AUTO_BRIGHTNESS, defaultAmbientDozeAutoBrighthness ? 1 : 0,
-                    UserHandle.USER_CURRENT) == 1;
-            mAmbientDozeAutoBrightness.setChecked(isAmbientDozeAutoBrighthness);
-            mAmbientDozeAutoBrightness.setOnPreferenceChangeListener(this);
-            mAmbientDozeCustomBrightness.setEnabled(!isAmbientDozeAutoBrighthness);
+            removePreference(AMBIENT_DOZE_CUSTOM_BRIGHTNESS);
+            removePreference(AMBIENT_DOZE_AUTO_BRIGHTNESS);
         } else {
             removePreference(AMBIENT_DOZE_CUSTOM_BRIGHTNESS);
             removePreference(AMBIENT_DOZE_AUTO_BRIGHTNESS);
@@ -518,17 +501,6 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
             } catch (NumberFormatException e) {
                 Log.e(TAG, "could not persist night mode setting", e);
             }
-        }
-        if (preference == mAmbientDozeCustomBrightness) {
-            int brightness = (Integer) objValue;
-            Settings.System.putIntForUser(getActivity().getContentResolver(),
-                    Settings.System.AMBIENT_DOZE_CUSTOM_BRIGHTNESS, brightness, UserHandle.USER_CURRENT);
-        }
-        if (preference == mAmbientDozeAutoBrightness) {
-            boolean value = (Boolean) objValue;
-            Settings.System.putIntForUser(getActivity().getContentResolver(),
-                    Settings.System.AMBIENT_DOZE_AUTO_BRIGHTNESS, value ? 1 : 0, UserHandle.USER_CURRENT);
-            mAmbientDozeCustomBrightness.setEnabled(!value);
         }
         return true;
     }
