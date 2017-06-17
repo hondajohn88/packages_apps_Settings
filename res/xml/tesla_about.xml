@@ -16,21 +16,25 @@
 	    android:title="About Tesla"
 	    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-	<!-- Tesla OTA -->
-	<PreferenceScreen
-	       android:key="slimota"
-	       android:title="@string/slimota_title" >
-	       <intent
-	           android:action="android.intent.action.MAIN"
-	           android:targetPackage="com.fusionjack.slimota"
-	           android:targetClass="com.fusionjack.slimota.MainActivity" />
-	</PreferenceScreen>
+        <!-- GZRomsApp -->
+        <PreferenceScreen
+               android:key="gzRomsApp"
+               android:title="@string/gzroms_app_title">
+               <intent
+                       android:action="android.intent.action.MAIN"
+                       android:targetPackage="com.jerrica.GZRoms"
+                       android:targetClass="com.jerrica.GZRoms.MainActivity" />
+        </PreferenceScreen>
 
 	<!-- Changelog -->
         <PreferenceScreen 
          	android:key="translator"
          	android:title="@string/changelog_tesla_title"
-         	android:fragment="com.android.settings.tesla.Changelog" />
+                android:summary="ROM latest changes, know what you get!" >
+               <intent
+	        android:action="android.intent.action.VIEW"
+	        android:data="https://raw.githubusercontent.com/TeslaRom-N/vendor_tesla/n7.1.2/Changelog_Tesla.txt" />
+        </PreferenceScreen>
 
         <!-- Feature-List -->
         <PreferenceScreen
@@ -45,12 +49,6 @@
 	    <intent
 	        android:action="android.intent.action.VIEW"
 	        android:data="https://plus.google.com/communities/109330559573276360638" />
-	</PreferenceScreen>
-
-	<PreferenceScreen android:title="Website">
-	    <intent
-	        android:action="android.intent.action.VIEW"
-	        android:data="http://validusrom.com/" />
 	</PreferenceScreen>
 
 		<!-- Developers -->
